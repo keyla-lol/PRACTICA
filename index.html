@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L’Essence | Festival Gastronómico</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+     <h2>Gastronomic festival</h2>
+     <div class="menu-icon">☰</div>
+    <nav class="menu">
+        <ul>
+            <li><a href="#Top">Home</a></li>
+            <li><a href="#Horarios">Schedule</a></li>
+            <li><a href="#Festival">About</a></li>
+            <li><a href="#Galeria">Gallery</a></li>
+        </ul>
+    </nav>
+</header>
+<hr>
+    <main>
+        <section class="hero">
+            <div class="overlay"> 
+            <h1>L'Essence.</h1>
+            <button onclick="location.href='#Horarios'">
+                Reserve Now.
+            </button>
+            <br>
+            <p>Discober flavors beyond imagination.</p>
+            </div>
+        </section>
+        <section id="Horarios" >
+            <hr>
+            <h2>Event Schedule</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Event</th>
+                        <th>Chef</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2:00 PM</td>
+                        <td>Wine tasting Experience</td>
+                        <td>Chef Laurent</td>
+                    </tr>
+                    <tr>
+                        <td>5:00 PM</td>
+                        <td> molecular Cusine Showcase</td>
+                        <td>Chef Andrés</td>
+                    </tr>
+                    <tr>
+                        <td>8:00</td>
+                        <td>Private Fine Cuisine Showcase</td>
+                        <td>Chef isabella</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="Festival">
+            <hr>
+            <h2>About the festival</h2>
+            <p>Fusión Gourmet brings together world-class chefs in an innovative culinary experience.</p> 
+
+            <ul>
+                <li>Gastronomic Innovation.</li>
+                <li>Sustainbility.</li>
+                <li>Sensory Experiences.</li>
+            </ul>
+        </section>
+        <section id="Galeria">
+            <h2><em>Gallery</em></h2>
+            <div class="galeria" >
+            <img src="https://images.openai.com/static-rsc-4/rlj4Gw0S78Yua5G2K3osmR9mkDq0LK3G1t2DYIOf-IbxwdP_kWw_RyuV8dwlF9z4aDxKE7VL1BXGgGyb3q3cLbeppJtSqWDfgqw2r43R-wA6W2DcUtQSBPoqo_u1A_mgp-o0GkhzMoOPRfo0ZoNRB5oDK5Gf67G4ju_QAuNDgCMnrDrEVk23yUxAcGElsoDO?purpose=inline" alt="imagen">
+            <p><em>Black pearl</em></p>
+            <img src="https://images.openai.com/static-rsc-4/CMXn1U1PE_lndt1DUBrGkibD6uKx7J4pmF5xoDkQIs5z97R1kvdc4KnPTllWKj-BD_b-GuKSLl1ZMioS438q2UrT4FyrAYfdfGzI6Hp8j2mJFDjmjp7AkoCIa3OiUwGQ5pfrmS3-2qwAwT-_Jd_rCuRm6T_qNPBwoPhSImOtS-HEIpFfx0s6fcEhfE1ZsJMZ?purpose=inline" alt="imagen">
+            <p>Premium Imported Meats</p>
+            <img src="https://images.openai.com/static-rsc-4/Z3-SIj8DeHn1o5zC3vdL_TBeOSlWCohV5xXRPPK50AOQwj4OgTB1mv_W6EPjTG56A9iOVBQJznE6tOdrzpWBYY17bgQEA11KV4ZBgNOhxoZYfeEubedF1hDIpcM6oafmUQrVPZ-d4WbRgmdcANEc7VrY43vhALg5dsEykmN2netpBmPUGKJVVsbg04HfUj7W?purpose=inline" alt="imagen">
+            <p><em>Olio</em></p><br>  
+            <img src="https://images.openai.com/static-rsc-4/venxE_KgVl9grkfWTkiyLEfZkN4Y-684RSIvwWyo9c20MQ-DDbKyzxahkCiuz6qxvSybAer87eOHFBNmSn0wQChk-z-ksswCRNeueIMDB0odmd9ENnRcfPI657x0rZf7H6N4u2fs9SPiPY9tXjeNtXpSsvOAwsxYXREpJHexunMQLq9Q-klheEOf5nGs1jvA?purpose=inline" alt="imagen">             
+            <p>Wine reserve.</p>      
+        </div>
+    </section>
+   
+    </main>
+    <footer>
+        <p>Contact:Fusiongourmet@email.com</p>
+        <ul>
+           <li>Instagram</li>
+            <li>Facebook</li>
+            <li>X</li>
+        </ul>
+    </footer>
+    <script>
+const icon = document.querySelector(".menu-icon");
+const menu = document.querySelector(".menu");
+
+icon.addEventListener("click", function() {
+    menu.classList.toggle("active");
+});
+</script>
+</body>
+</html>
